@@ -15,4 +15,13 @@ body {
   padding: 0;
 }
 
+.header {
+  text-align: center;
+  font-family: "shrikhand";
+}
+.header .lienHeader {
+  text-decoration: none;
+  color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
