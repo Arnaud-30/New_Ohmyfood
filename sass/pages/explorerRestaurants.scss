@@ -1,0 +1,41 @@
+.containerExplorer {
+    margin-top: -20px;
+    background-color: $couleurGris;
+    font-family: 'roboto';
+    text-align: center;
+
+    .titreExplorer {
+        padding-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'roboto-black';
+        font-weight: 100;
+    }
+
+    .paragrapheExplorer {
+        margin-top: -5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.btnExplorer {
+    margin-top: 40px;
+    padding-bottom: 60px;
+
+    .lienExplorer {
+        border-radius: 20px 20px 20px 20px;
+        background: linear-gradient(#FF79DA, #9356DC);
+        color: white;
+        text-decoration: none;
+        padding: 13px;
+        font-weight: 800;
+        font-size: 0.9em;
+        transition: 0.1s ease-in-out;
+
+        &:hover {
+            box-shadow: 0px 5px 10px $ombreBtnExplorer;
+            opacity: 0.9;
+        }
+    }
+}
