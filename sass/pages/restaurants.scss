@@ -1,0 +1,99 @@
+.containerRestaurant {
+        width: 100%;
+        margin: auto;
+        background-color: $couleurGris;
+        margin-top: 70px;
+
+    .titreRestaurant {
+        margin-left: 20px;
+        padding-top: 50px;
+        font-family: 'roboto-black';
+        font-weight: 100;
+        font-size: 1.5em;
+
+        @media screen and(min-width: 628px) {
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+}
+
+.flexRestaurant {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -30px;
+}
+
+.blocRestaurant {
+    background-color: $couleurBlanc;
+    box-shadow: 0px 5px 10px $ombreBtnExplorer;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    width: 100%;
+    min-width: auto;
+    max-width: 400px;
+    height: 240px;
+    cursor: pointer;
+
+    .imageRestaurant .imageFigure {
+        width: 100%;
+        max-width: 400px;
+        min-width: 300px;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .nouveau {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        background-color: $tertiaire;
+        padding: 5px 10px 5px 10px;
+        border-radius: 2px 2px 2px 2px;
+        font-family: 'roboto-black';
+        font-weight: 100;
+        color: $couleurNouveauFigure;
+    }
+}
+
+.blocText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 25px;
+    font-family: 'roboto';
+
+    .titreBloc {
+        margin-top: -10px;
+        font-family: 'roboto';
+        font-weight: bold;
+    }
+
+    .textFigure {
+        margin-top: -15px;
+        font-weight: 100;
+        font-size: 1.150em;
+    }
+}
+
+.lienFigure {
+    text-decoration: none;
+    border: none;
+    color: $couleurNoir;
+}
+
+.iconFigure {
+    margin-top: -20px;
+
+    .lienIconFigure {
+        font-size: 1.5em;
+        color: $couleurBlanc;
+        -webkit-text-stroke: 2px $couleurNoir;
+    }
+}
