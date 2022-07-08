@@ -1,0 +1,39 @@
+.containerFooter {
+    background-color: $couleurFooter;
+    margin-bottom: -16px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+
+    .titreFooter {
+        font-family: 'shrikhand';
+        font-weight: 100;
+        font-size: 1.3em;
+        padding-top: 20px;
+        margin-left: 20px;
+        color: $couleurBlanc;
+    }
+}
+
+.listeFooter {
+    list-style-type: none;
+    margin-left: -20px;
+
+    .liFooter {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    .lienFooter {
+        text-decoration: none;
+        font-family: 'roboto';
+        color: $couleurBlanc;
+
+        &:hover {
+            border-bottom: 2px solid $couleurBlanc;
+        }
+    }
+
+    .iconFooterDecal {
+        margin-left: 10px;
+    }
+}
