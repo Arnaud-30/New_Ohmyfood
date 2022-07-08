@@ -184,6 +184,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: -30px;
+  padding-bottom: 70px;
 }
 
 .blocRestaurant {
@@ -252,6 +253,41 @@ body {
   font-size: 1.5em;
   color: #FFF;
   -webkit-text-stroke: 2px #000;
+}
+
+.containerFooter {
+  background-color: #353030;
+  margin-bottom: -16px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+}
+.containerFooter .titreFooter {
+  font-family: "shrikhand";
+  font-weight: 100;
+  font-size: 1.3em;
+  padding-top: 20px;
+  margin-left: 20px;
+  color: #FFF;
+}
+
+.listeFooter {
+  list-style-type: none;
+  margin-left: -20px;
+}
+.listeFooter .liFooter {
+  margin-top: 10px;
+  font-size: 1em;
+}
+.listeFooter .lienFooter {
+  text-decoration: none;
+  font-family: "roboto";
+  color: #FFF;
+}
+.listeFooter .lienFooter:hover {
+  border-bottom: 2px solid #FFF;
+}
+.listeFooter .iconFooterDecal {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
