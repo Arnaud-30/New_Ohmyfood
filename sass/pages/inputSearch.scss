@@ -21,5 +21,11 @@
         border: none;
         background-color: $couleurSearch;
         font-family: 'roboto';
+        outline: none;
+
+        &:focus {
+            border: 2px solid $couleurNoir;
+            border-radius: 2px;
+        }
     }
 }
