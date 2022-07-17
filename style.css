@@ -94,6 +94,11 @@ body {
   border: none;
   background-color: #eaeaea;
   font-family: "roboto";
+  outline: none;
+}
+.containerRecherche .searchInput:focus {
+  border: 2px solid #000;
+  border-radius: 2px;
 }
 
 .containerExplorer {
